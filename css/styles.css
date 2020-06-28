@@ -99,9 +99,9 @@ main {
 }
 
 .profile-pic {
-    padding: 3px;
+    padding: 2px;
     border-radius: 50%;
-    border-left: 2px solid yellow;
+    border-left: 2px solid #FBBC04;
     border-top: 2px solid red;
     border-right: 2px solid blue;
     border-bottom: 2px solid green;
