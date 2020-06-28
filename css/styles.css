@@ -56,6 +56,29 @@ input[type="submit"]:hover {
 
 /* Layout */
 
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    align-items: center;
+}
+
+.right-header {
+    display: flex;
+    align-items: center;;
+}
+
+header a {
+    margin-right: 15px;
+    color: #555;
+}
+
+header a:hover, header a:focus {
+    text-decoration: underline;
+    cursor: pointer;
+    color: #888;
+}
+
 main {
     display: flex;
     flex-direction: column;
@@ -68,7 +91,16 @@ main {
     margin-bottom: 20px;
 }
 
-img {
-    margin-top: 200px;
+.google-logo {
+    margin-top: 100px;
     margin-bottom: 20px;
+}
+
+.profile-pic {
+    padding: 3px;
+    border-radius: 50%;
+    border-left: 2px solid yellow;
+    border-top: 2px solid red;
+    border-right: 2px solid blue;
+    border-bottom: 2px solid green;
 }
