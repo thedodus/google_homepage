@@ -28,7 +28,7 @@ input[type="text"]{
     border: 1px solid #ddd;
     border-radius: 20px;
     padding: 5px 15px;
-    width: 530px;
+    width: 550px;
     height: 45px;
     margin-bottom: 30px;
 }
@@ -92,8 +92,8 @@ main {
 }
 
 .google-logo {
-    margin-top: 100px;
-    margin-bottom: 20px;
+    margin-top: 125px;
+    margin-bottom: 25px;
 }
 
 .profile-pic {
